@@ -377,7 +377,7 @@ body {
     background: url('../img/bg/testimonials-bg.png') center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 70px;
+    padding: 70px 5px;
 }
 
 .testimonials h2 {
@@ -386,7 +386,7 @@ body {
     color: #e0a80d;
 }
 
-.testimonials span{
+.contact span{
     color: #fff;
     font-weight: 300;
     font-size: 25px;
@@ -529,7 +529,7 @@ body {
 ========================== */
 
 .contact {
-    padding: 0 0 130px 0;
+    /*padding: 0 0 130px 0;*/
     background: #2d2e2e;
 }
 
