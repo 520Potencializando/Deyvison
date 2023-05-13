@@ -133,14 +133,22 @@ body {
 .slider .left-content .btn {
     border: 2px solid #e0a80d;
     border-radius: 35px;
-    padding: 10px 30px;
+    padding: 15px 35px;
     font-size: 14px;
     color: #ffffff;
     font-weight: 500;
     margin-top: 20px;
     text-decoration: none;
     z-index: 200;
+    position: relative;
 }
+
+.slider .left-content .btn:hover {
+      /*background: #00d0e1;*/
+      text-decoration: none;
+      color: #fff;
+      box-shadow: 0 0 5px #ffd546, 0 0 25px #ffd546, 0 0 50px #ffd546, 0 0 100px #ffd546;
+  }
 
 
 /* ==========================
@@ -376,12 +384,25 @@ body {
     opacity: .95;
 }
 
+.funil {
+    background: url('../img/back02.png') center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 70px 5px;
+}
+
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */ 
+  .funil {
+    background-attachment: inherit;
+  }
+}
 
 /* ==========================
    [07]. Testimonials
 ========================== */
 .testimonials {
-    background: url('../img/bg/testimonials-bg.png') center center no-repeat;
+    background: url('../img/testimonials-bg.png') center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
     padding: 70px 5px;
@@ -670,6 +691,10 @@ body {
         text-align: center;
         margin-top: 40px;
     }
+
+    .spn1 {
+        width: 100%;
+    }
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -708,6 +733,11 @@ body {
         padding: 0;
         text-align: center;
         margin-top: 40px;
+    }
+
+        .spn1 {
+        width: 100%;
+        display: block;
     }
 }
 
